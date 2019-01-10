@@ -44,7 +44,7 @@
   </div>
   <div class="stackedit__right">
     <div class="stackedit__html">
-      <p><img src="https://wallet.sikke.com.tr/static/images/sikke_client_logo.jpg" alt="enter image description here"></p>
+      <p><img src="https://raw.githubusercontent.com/sikke-official/sikke-java-client/master/sikke_client_logo.jpg" alt="enter image description here"></p>
 <h1 id="welcome-to-sikke-client">Welcome to Sikke Client</h1>
 <p><strong>Sikke Platform</strong> is an ecosystem in which transfer and other transactions related to Sikke (SKK) crypto coinand other crypto currencies created in the coin platform are made; smart contracts are created and approved; and future transactions can be made.</p>
 <h2 id="sikke-client-command-functions">Sikke Client Command Functions</h2>
