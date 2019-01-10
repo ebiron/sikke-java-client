@@ -9,42 +9,7 @@
 </head>
 
 <body class="stackedit">
-  <div class="stackedit__left">
-    <div class="stackedit__toc">
-      
-<ul>
-<li><a href="#welcome-to-sikke-client">Welcome to Sikke Client</a>
-<ul>
-<li><a href="#sikke-client-command-functions">Sikke Client Command Functions</a></li>
-<li><a href="#register">register</a></li>
-<li><a href="#login">login</a></li>
-<li><a href="#logout">logout</a></li>
-<li><a href="#makedefault">makeDefault</a></li>
-<li><a href="#importwallet">importWallet</a></li>
-<li><a href="#listwallets">listWallets</a></li>
-<li><a href="#gettransactions">getTransactions</a></li>
-<li><a href="#createwallet">createWallet</a></li>
-<li><a href="#createwalletandsave">createWalletAndSave</a></li>
-<li><a href="#mergebalance">mergeBalance</a></li>
-<li><a href="#getbalances">getBalances</a></li>
-<li><a href="#send">send</a></li>
-<li><a href="#syncwallet">syncWallet</a>
-<ul>
-<li></li>
-</ul>
-</li>
-<li><a href="#importwallets">importWallets</a></li>
-<li><a href="#exportwallets">exportWallets</a></li>
-<li><a href="#help">help</a></li>
-</ul>
-</li>
-</ul>
-
-    </div>
-  </div>
-  <div class="stackedit__right">
-    <div class="stackedit__html">
-      <p><img src="https://raw.githubusercontent.com/sikke-official/sikke-java-client/master/sikke_client_logo.jpg" alt="enter image description here"></p>
+  <div class="stackedit__html"><p><img src="https://raw.githubusercontent.com/sikke-official/sikke-java-client/master/sikke_client_logo.jpg" alt="enter image description here"></p>
 <h1 id="welcome-to-sikke-client">Welcome to Sikke Client</h1>
 <p><strong>Sikke Platform</strong> is an ecosystem in which transfer and other transactions related to Sikke (SKK) crypto coinand other crypto currencies created in the coin platform are made; smart contracts are created and approved; and future transactions can be made.</p>
 <h2 id="sikke-client-command-functions">Sikke Client Command Functions</h2>
@@ -553,9 +518,7 @@ syncWallet ADDRESS:SKK17h6BPxWhJS54j5UJ1Mdf6Z2UkGG4P5n4x ALIAS_NAME:My_Wallet</p
 <p><em><strong>help</strong></em> function shows Help Menu.<br>
 With the help command you can quickly see how the methods work.</p>
 </blockquote>
-
-    </div>
-  </div>
+</div>
 </body>
 
 </html>
