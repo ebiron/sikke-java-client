@@ -26,15 +26,13 @@ To see if the server is up and running; You can request from the browser and Pos
 <p>After installing the current version of Java on your personal computer, you should run the <strong>Sikke Client Server</strong> as follows.
 
 ![enter image description here](https://github.com/sikke-official/sikke-java-client/blob/master/SikkeConsoleJar.PNG)
-<img  src="images/SikkeConsoleJar.PNG"  alt="Sikke Client Server"  width="530"  height="300"  align="middle"  hspace="20">
-
   
 
 <p>In order to request <strong>Sikke Client Server</strong> from <strong>Sikke Client Client Application</strong> , you must download Coin Client Client which is suitable for your operating system.</p>
 
   
+![enter image description here](https://github.com/sikke-official/sikke-java-client/blob/master/SikkeConsoleClient.PNG)
 
-<img  src="images/SikkeConsoleClient.PNG"  alt="Sikke Client Client"  width="530"  height="312"  align="middle"  hspace="20">
 
 ## Introduction
 
