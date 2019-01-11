@@ -6,7 +6,7 @@
 **Sikke Platform** is an ecosystem in which transfer and other transactions related to Sikke (SKK) crypto coinand other crypto currencies created in the coin platform are made; smart contracts are created and approved; and future transactions can be made.
 
 
-## # Get Started
+## Get Started
 
 To use the coin client system on your personal computer, 2 applications must be downloaded. One of these is the <strong>Sikke Client Server Application</strong> and the other is <strong>Sikke Client Client Application</strong> which is used to connect to this server.
 <strong>Sikke Client Server Application</strong> is a jar console based jar file. When the jar file is run, a server stands up and starts listening to requests to be sent to http://localhost:9090/  
