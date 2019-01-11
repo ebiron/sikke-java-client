@@ -107,15 +107,15 @@ This command lists the wallets and wallet balance information in the **SIKKE** c
 
  
 
-## getTransactions
-   >  _**getTransactions**_ function runs in 2 different modes. First of all, no parameters are accepted. If no parameter is entered, the user's last 100 transaction records will be returned. In the other mode, only 1 parameter must be entered. The records are returned according to the selected parameter type.
+## getHistories
+   >  _**getHistories**_ function runs in 2 different modes. First of all, no parameters are accepted. If no parameter is entered, the user's last 100 transaction records will be returned. In the other mode, only 1 parameter must be entered. The records are returned according to the selected parameter type.
 
 > First Mode:
 
-     > getTransactions
+     > getHistories
 > Second Mode:
 
-     > getTransactions ADDRESS|HASH|SEQ|BLOCK : Value 
+     > getHistories ADDRESS|HASH|SEQ|BLOCK : Value 
 
 |Parameter|Definition  |Obligation
 |--|--|--|
@@ -127,7 +127,7 @@ This command lists the wallets and wallet balance information in the **SIKKE** c
 **> First Mode:**
 > 
 
-    >getTransactions
+    >getHistories
 
 **> Second Mode:**
 > 
@@ -136,18 +136,18 @@ This command lists the wallets and wallet balance information in the **SIKKE** c
 
     
 
-    >getTransactions ADDRESS:SKK1QBepiMsdrBBX6cy9E7wKtjwZAkWvFmJmA
+    >getHistoriesADDRESS:SKK1QBepiMsdrBBX6cy9E7wKtjwZAkWvFmJmA
 
 > ***HASH:Value***
 
-    >getTransactions HASH:8bce4ekkdl557678b9eb41f934654646595fd7b427032f2f48d9ddfgggfb7ea326791kk8dj  
+    >getHistories HASH:8bce4ekkdl557678b9eb41f934654646595fd7b427032f2f48d9ddfgggfb7ea326791kk8dj  
 
 > ***SEQ:Value***
 
-    >getTransactions SEQ:10001
+    >getHistories SEQ:10001
 > ***BLOCK:Value***
 
-    >getTransactions BLOCK:10000
+    >getHistories BLOCK:10000
 
 
 
@@ -352,6 +352,7 @@ After that, the wallet that was previously only available in the local database 
    >     With the help command you can quickly see how the methods work.
 
  
+
 
 
 
