@@ -6,6 +6,52 @@
 **Sikke Platform** is an ecosystem in which transfer and other transactions related to Sikke (SKK) crypto coinand other crypto currencies created in the coin platform are made; smart contracts are created and approved; and future transactions can be made.
 
 
+## Get Started
+
+To use the coin client system on your personal computer, 2 applications must be downloaded. One of these is the <strong>Sikke Client Server Application</strong> and the other is <strong>Sikke Client Client Application</strong> which is used to connect to this server.
+<strong>Sikke Client Server Application</strong> is a jar console based jar file. When the jar file is run, a server stands up and starts listening to requests to be sent to http://localhost:9090/  
+
+<strong>Sikke Client Server Application</strong> is a console application designed to send requests to this server. 
+
+<strong>Sikke Client Server Application</strong> consists of a <em><strong>single jar file of all operating systems</strong></em>, while the <strong>Sikke Client Server Application</strong> has 3 instances that you can download 
+according to your operating system. 
+
+<br>How to use the Sikke Client System is described in detail in the documentation below.
+
+To run the Sikke Client Server, make sure you have the latest version of Java installed on your personal computer.  
+If the latest version of Java is not installed on your system, you can  download from https://www.java.com/en/download/
+and install the latest version of Java.
+To see if the server is up and running; You can request from the browser and Postman at <a  href="http://localhost:9090/serverStatus">http://localhost:9090/serverStatus</a>
+
+<p>After installing the current version of Java on your personal computer, you should run the <strong>Sikke Client Server</strong> as follows.
+
+<img  src="images/SikkeConsoleJar.PNG"  alt="Sikke Client Server"  width="530"  height="300"  align="middle"  hspace="20">
+
+  
+
+<p>In order to request <strong>Sikke Client Server</strong> from <strong>Sikke Client Client Application</strong> , you must download Coin Client Client which is suitable for your operating system.</p>
+
+  
+
+<img  src="images/SikkeConsoleClient.PNG"  alt="Sikke Client Client"  width="530"  height="312"  align="middle"  hspace="20">
+
+## Introduction
+
+[JSON-RPC](https://en.wikipedia.org/wiki/JSON-RPC)  is a remote procedure call protocol encoded in JSON. You can use this API to access data in  [Sikke](https://www.sikke.com.tr/)  Client. The JSON-RPC API server runs on:
+
+-   `http://localhost:9090/`  when running Sikke Client locally.
+
+All API calls are POST requests made to Sikke API.
+
+All requests follow the standard JSON-RPC format and include 4 variables in the data object:
+
+|Data Object | Example |
+|--|--|
+| id |  e.g. "1"|
+|jsonrpc |e.g. "2.0"  |
+|metthod |  e.g. "GetBalance"|
+|params | e.g. ["1"] |
+
 ## Sikke Client Command Functions
 
   
@@ -136,7 +182,7 @@ This command lists the wallets and wallet balance information in the **SIKKE** c
 
     
 
-    >getHistoriesADDRESS:SKK1QBepiMsdrBBX6cy9E7wKtjwZAkWvFmJmA
+    >getHistories ADDRESS:SKK1QBepiMsdrBBX6cy9E7wKtjwZAkWvFmJmA
 
 > ***HASH:Value***
 
